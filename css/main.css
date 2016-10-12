@@ -1,4 +1,4 @@
-/* */
+/* GENERALES  */
 *{
 	font-family: "Merriweather"
 }
@@ -12,6 +12,10 @@
 	color: #DA2C38;
 	background-color: #F4F0BB;
 }
+.one, .two, .three{
+	padding: 40px 80px;
+}
+
 /* barra nav*/
 .navbar{
 	padding:  10px;
@@ -45,13 +49,18 @@ a.navbar-brand{
   position: absolute;
   background-color: rgba(0, 0, 0, 0.70);
   display: block;
-  content: ""; }
-  .creamy {
+  content: "";
+}
+.creamy {
  margin-top: 10%;
-  
 }
 
-/* seccion one*/
-.one, .two{
-	padding: 40px 80px;
+/* seccion three*/
+.fa{
+	font-size: 80px;
+}
+/* footer*/
+footer{
+	padding: 15px 80px;
+	text-align: left;
 }
